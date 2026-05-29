@@ -1,0 +1,109 @@
+
+        body{
+            height:100vh;
+            background-image:url("https://raw.githubusercontent.com/Madhumidha4310/Images/main/background.png");
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:100%;
+            min-height:100vh;
+        }
+
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            position:sticky;
+            background:rgba(1, 25, 60, 0.2);
+        }
+
+        .nav img{
+            width: 150px;
+            height: 80px;
+            align-items:center;
+        }
+
+        .nav div{
+            color: white;
+            padding: 10px;
+        }
+
+        .search-box{
+            display:flex;
+            width:40%;
+            height: 10%;
+        }
+
+        .search-box select{
+            width:10%;
+        }
+
+        .search-box input{
+            width:100%;
+            font-size:16px;
+        }
+
+        .search-box button{
+            background:#f4b733;
+            border:orange 2px;
+            padding:10px 15px;
+            font-size:18px;
+        }
+
+        .nav-links{
+            display:flex;
+            align-items: center;
+            gap:25px;
+            font-size:14px;
+        }
+
+        .menu{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            color: white;
+            padding:12px 20px;
+            background:rgba(4, 4, 34, 0.763);
+        }
+
+        .start{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 80px;
+        }
+
+        .start h6{
+            display: inline-flex;
+        }
+
+        .product{
+            display:grid;
+            grid-template-columns:repeat(4,1fr);
+            gap:20px;
+            padding:20px;
+            margin-top:-30px;
+        }
+
+        .card1{
+            background:white;
+            padding:5px;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+        }
+
+        .pro{
+            display: flex;
+            width: 100px;
+            height: 100px;
+            gap: 30px;
+        }
+
+        .product p{
+            display: inline-flex;
+            padding-right: 49px;
+        }
+    
